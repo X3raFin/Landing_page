@@ -14,15 +14,29 @@
     flex-direction: row;
     height: 65px;
 }
-.left
+.right, .left
 {
+    flex: 1;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.right 
+.right
 {
+    gap: 30px;
+}
+.left
+{
+    position: relative;
+    left: -50px;
+}
+.left strong
+{
+    font-size: 24px;
+    color: #F9FAF8;
+}
+#header
+{
+    height: 500px;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
 }
