@@ -2,7 +2,7 @@
 {
     font-family: "Roboto";
     margin: 0px;
-    color: white;
+    color: black;
 }
 #nav, #footer
 {
@@ -74,7 +74,7 @@
 {
     font-size: 48px;
     color: #F9FAF8;
-    font-weight: 900px;
+    font-weight: 900;
 }
 .text p
 {
@@ -88,4 +88,57 @@ button
     border-radius: 10px;
     height: 32px;
     width: 100px;
+}
+#body
+{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: black;
+    margin-bottom: 100px;
+}
+.sentence
+{
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+    padding: 50px;
+}
+.containers
+{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+.containers div
+{
+    width: 150px;
+}
+.containers p
+{
+    text-align: center;
+    margin-top: 5px;
+}
+.container
+{
+    border: 3px solid #3882F6;
+    height: 150px;
+    width: 150px;
+    border-radius: 20px;
+}
+#quotation
+{
+    background-color: #E5E7EB;
+    padding: 100px 400px;
+}
+#quotation p
+{
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 300;
+    font-style: italic;
+}
+#quotation h2
+{
+    text-align: right;
 }
