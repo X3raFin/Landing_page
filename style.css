@@ -30,13 +30,62 @@
     position: relative;
     left: -50px;
 }
-.left strong
+.left h1
 {
     font-size: 24px;
     color: #F9FAF8;
 }
 #header
 {
-    height: 500px;
+    height: 420px;
     display: flex;
+    justify-content: center;
+    gap: 80px;
+}
+.image, .text
+{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    gap: 10px;
+}
+.image
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.image div
+{
+    background-color: #808184;
+    color: #E5E7EB;
+    width: 600px;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.text
+{
+    flex-direction: column;
+    width: 400px;
+}
+.text h1
+{
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900px;
+}
+.text p
+{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+button
+{
+    background-color: #3882F6;
+    border: 0px;
+    border-radius: 10px;
+    height: 32px;
+    width: 100px;
 }
