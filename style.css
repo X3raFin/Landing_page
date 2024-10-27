@@ -1,0 +1,28 @@
+*
+{
+    font-family: "Roboto";
+    margin: 0px;
+    color: white;
+}
+#nav, #footer
+{
+    background-color: #1F2937;
+}
+#bar
+{
+    display: flex;
+    flex-direction: row;
+    height: 65px;
+}
+.left
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.right 
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
